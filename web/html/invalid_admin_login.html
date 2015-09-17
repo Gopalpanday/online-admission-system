@@ -1,0 +1,29 @@
+<form action="adminDao.jsp" method="POST" onsubmit="return isBlank();">
+        <div  align="center" style="padding: 20px;">
+            <fieldset  style=" border-style:ridge; border-width: inherit;">
+                <legend style="font-size: 20px; color: #cc0000;">Admin Login</legend>
+                <table>
+                    <tr>
+                        <td>
+                            Admin ID :<span style="color: red;">*</span>
+                        </td>
+                        <td>
+                            <input type="text" size="30" id="admin_id" name="admin_id"><br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Password :<span style="color: red;">*</span>
+                        </td>
+                        <td>
+                            <input type="password" size="30" id="pass" name="admin_pass"><br>
+                        </td>
+                    </tr>   
+                </table> 
+                <div style="text-align: center; padding-top: 5px;"><input type="image" src="image/13.gif" alt="Submit" width="130" height="55"></input></div>
+                <div style="font-size: 18px; color: #cc0000;">Invalid admin ID or Password</div>
+            </fieldset>
+        </div> 
+        <div style="clear:both; height:10px;"></div>
+</form>
+

@@ -1,0 +1,30 @@
+<form action="studentLoginDao.jsp" method="POST" onsubmit="return isBlank();">
+        <div style="padding: 20px; float: left;">
+            <fieldset  style="float: left;border-style:ridge;">
+                <legend style="font-size: 20px; color:#cc0000;">User Login</legend>
+                <table>
+                    <tr>
+                        <td>
+                            Email ID :<span style="color: red;">*</span>
+                        </td>
+                        <td>
+                            <input type="email" size="30" id="email" name="email"><br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Password :<span style="color: red;">*</span>
+                        </td>
+                        <td>
+                            <input type="password" size="30" id="pass" name="pass"><br>
+                        </td>
+                    </tr>   
+                </table> 
+                <div style="text-align: center; padding-top: 5px;"><input type="image" src="image/13.gif" alt="Submit" width="130" height="55"></input></div>
+                <div style="text-align: center; padding-top: 5px;font-size: 18px;color:#cc0000;">Invalid user Email ID or Passwrod</div>
+            </fieldset>
+        </div> 
+       	<div style="text-align:right; padding-right:100px;"><img src="image/7.jpg"/></div>
+        <div style="text-align: center;padding-top: 5px; color: #0000cc;"><a href="register_user.jsp">If you are new? ...Click here to register 'SIGN UP'</a></div>
+        <div style="clear:both; height:10px;"></div>
+ </form>

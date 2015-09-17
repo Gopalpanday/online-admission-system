@@ -1,0 +1,107 @@
+<style>input:focus, textarea:focus{background-color:#CCFFFF;}</style>
+<form action="studentRegisterDao.jsp" method="POST" onsubmit="return isBlank();">
+<div align="center">
+	<table style="font-size:18px;">
+    	<tr>
+        	<td>
+        		Email :<span style="color: red;">*</span>
+            </td>
+            <td>
+        		<input type="email" name="email" size="30" autocomplete="on"id="email">
+            </td>  
+        </tr>
+        <tr>
+        	<td></td>
+                <td style="font-size:14px;"><span style="color:#335672;">Email ID must be unique</span><td></br>
+        </tr>
+        <tr>
+        	<td>
+        		First Name :<span style="color: red;">*</span></br></br>
+            </td>
+            <td>
+        		<input type="text" size="30" name="fname"id="fname"></br></br>
+            </td>
+        </tr>
+        <tr>
+        	<td>
+        		Last Name :</br></br>
+            </td>
+            <td>
+        		<input type="text" size="30" name="lname"></br></br>
+            </td>
+        </tr>
+         <tr>
+        	<td>
+        		DOB :<span style="color: red;">*</span></br></br>
+            </td>
+            <td>
+        		<input type="date" name="dob"id="dob"></br></br>
+            </td>
+        </tr>
+        <tr>
+        	<td>
+        		Sex :<span style="color: red;">*</span></br></br>
+            </td>
+            <td>
+        		<input type="radio" name="sex" value="male" checked="checked">Male
+				<input type="radio" name="sex" value="female">Female</br></br>
+            </td>
+        </tr>   
+        <tr>
+        	<td>
+        		Contact :<span style="color: red;">*</span>
+            </td>
+            <td>
+        		<input type="text" size="30" name="contact-1"id="contact"></br>
+            </td>
+        </tr>
+        <tr>
+        	<td></td>
+        	<td style="font-size:14px;"><span style="color: #335672;">Contact no. contain only number's</span><td></br>
+        </tr>
+        <tr>
+        	<td>
+        		Address :<span style="color: red;">*</span></br></br>
+            </td>
+            <td>
+        		<textarea rows="5" cols="24" name="address"id="address"></textarea></br></br>
+            </td>
+        </tr>
+        <tr>
+        	<td>
+        		Pincode :<span style="color: red;">*</span>
+            </td>
+            <td>
+        		<input type="text" size="30" name="pincode"id="pin"></br>
+            </td>
+        </tr>
+        <tr>
+        	<td></td>
+        	<td style="font-size:14px;"><span style="color: #335672;">Pincode contain only number's</span><td></br>
+        </tr>
+        <tr>
+        	<td>
+        		Password :<span style="color: red;">*</span>
+            </td>
+            <td>
+        		<input type="password" size="30" name="pass"id="pass"></br>
+            </td>
+        </tr>
+        <tr>
+        	<td></td>
+        	<td style="font-size:14px;"><span style="color: #335672;">Please Re-enter the password</span><td></br>
+        </tr>
+        <tr>
+        	<td>
+        		Re-Enter :<span style="color: red;">*</span></br></br>
+            </td>
+            <td>
+        		<input type="password" size="30" name="pass1"id="pass1"></br></br>
+            </td>
+        </tr>
+    </table>
+    <input type="image" src="image/15.jpg" alt="Submit" width="150" height="50">                 
+            
+</div> 
+ <div style="clear:both; height:10px;"></div>   
+ </form>   
