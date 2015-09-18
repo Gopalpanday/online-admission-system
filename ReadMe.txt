@@ -3,10 +3,8 @@ Run file Named "mysql.sql" for DB SetUP.
 Software REquired
 ------------------
 Mysql
-Php Server
+Apcahe Tomcat
 
+Deploy OAS war file on tomcat and run
 
-open php -->  localhost/Vedio Gallery/Login.php
-
-
-Video Storage on FILE DIRECTORY SYSTEM.
+http://localhost:8080/home.jsp
